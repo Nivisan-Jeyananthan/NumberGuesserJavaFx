@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.m120.la3055.view.View">
+   <children>
+      <Button fx:id="guessBtn" layoutX="326.0" layoutY="76.0" mnemonicParsing="false" onAction="#guessAction" style="-fx-background-color: #64c779;" text="Guess" />
+      <TextField fx:id="guessTxt" layoutX="39.0" layoutY="76.0" prefHeight="31.0" prefWidth="274.0" />
+      <Label fx:id="answerLbl" layoutX="39.0" layoutY="118.0" prefHeight="21.0" prefWidth="347.0" text="Label" />
+      <ProgressBar fx:id="attemptPgr" layoutX="39.0" layoutY="161.0" prefHeight="23.0" prefWidth="347.0" progress="0.0" />
+      <Label layoutX="125.0" layoutY="37.0" text="Guess a number between 1 - 100" />
+   </children>
+</AnchorPane>
